@@ -71,17 +71,20 @@
 
         .four {
             flex-grow: 2;
-
+            flex-flow: inherit;
+            flex-direction: column;
         }
 
         .five {
             flex-shrink: 0;
             height: 200px;
+            flex-wrap:inherit;
         }
 
         .six {
             flex-grow: 4;
             height: 80px;
+            flex-direction: row-reverse;
         }
 
         .third-container {
@@ -92,10 +95,14 @@
 
         .seven {
             flex-grow: 4;
+            flex-wrap: wrap-reverse;
+           
         }
 
         .eight {
             flex-grow: 4;
+            align-self: left;
+            flex-wrap:nowrap;
 
         }
 
@@ -103,6 +110,7 @@
 
             flex-grow: 4;
             align-self: center;
+            flex-wrap:unset;
         }
 
         .fourth-container {
